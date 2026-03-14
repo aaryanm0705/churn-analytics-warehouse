@@ -61,7 +61,7 @@ Four layers, each with a clear purpose:
 | [sql/validation/validation_suite.sql](sql/validation/validation_suite.sql) | Data quality checks across all layers |
 | [sql/analytics/04_business_questions.sql](sql/analytics/04_business_questions.sql) | Five business questions answered with SQL |
 | [sql/analytics/05_dashboard_queries.sql](sql/analytics/05_dashboard_queries.sql) | Eight Power BI-ready queries |
-| [BUSINESS_OVERVIEW.md](BUSINESS_OVERVIEW.md) | Plain-English write-up for non-technical readers |
+| [BUSINESS_OVERVIEW.md](BUSINESS_OVERVIEW.md) | Project context, data problems, churn definition, and key findings |
 | [workflows/build_core_and_analytics.md](workflows/build_core_and_analytics.md) | Technical run guide and churn definition |
 
 ---
