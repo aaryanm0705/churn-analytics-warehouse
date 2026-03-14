@@ -40,21 +40,10 @@ Four layers, each with a clear purpose:
 
 ---
 
-## Quick start
-
-```bash
-./run_all.sh -h localhost -p 5432 -d churn_db -U postgres
-```
-
-Runs all 13 SQL steps in dependency order and finishes with a full validation suite.
-
----
-
 ## Files
 
 | Path | Description |
 |---|---|
-| [run_all.sh](run_all.sh) | One-command build script |
 | [sql/](sql/) | All SQL organised by layer |
 | [sql/validation/validation_suite.sql](sql/validation/validation_suite.sql) | Data quality checks across all layers |
 | [sql/analytics/04_business_questions.sql](sql/analytics/04_business_questions.sql) | Five business questions answered with SQL |
