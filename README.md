@@ -8,9 +8,11 @@ A layered SQL data warehouse built in PostgreSQL, with a Power BI dashboard on t
 
 ## Dashboard
 
-![Executive Overview](screenshots/dashboard_page1.png)
+![Executive Overview](power_bi_dashboard/dashboard_page1.png)
 
-![Segment Deep Dive](screenshots/dashboard_page2.png)
+![Segment Deep Dive](power_bi_dashboard/dashboard_page2.png)
+
+The `.pbix` file is in [`power_bi_dashboard/`](power_bi_dashboard/).
 
 ---
 
