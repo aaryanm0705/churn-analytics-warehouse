@@ -2,8 +2,7 @@
 
 ## Objective
 
-Build a portfolio-grade churn analytics data warehouse on PostgreSQL.
-Transform raw CSV data through staging views into dimensional core tables and analytics-ready outputs.
+Documents the build order, schema definitions, churn logic, and edge case handling for the churn analytics warehouse. Raw CSV data flows through staging views into dimensional core tables and analytics outputs.
 
 ## Architecture
 
@@ -50,16 +49,6 @@ raw (CSV imports) --> staging (cleaned views) --> core (dim/fact tables) --> ana
 |------|--------|---------|
 | — | `sql/analytics/04_business_questions.sql` | Five business questions answered with SQL |
 | — | `sql/analytics/05_dashboard_queries.sql` | Eight dashboard-ready queries for BI tools |
-
-### One-command build
-
-Instead of running each step manually, use the orchestration script:
-
-```bash
-./run_all.sh -h localhost -p 5432 -d churn_db -U postgres
-```
-
-This runs steps 1–14 in order and stops on first failure.
 
 ## Staging Inputs (source of truth)
 

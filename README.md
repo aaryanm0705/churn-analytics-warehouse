@@ -16,6 +16,19 @@ The `.pbix` file is in [`power_bi_dashboard/`](power_bi_dashboard/).
 
 ---
 
+## Key Findings
+
+Results from the actual dataset (20,000 synthetic customers):
+
+- **77.4% churn rate** — 15,471 of 20,000 customers churned
+- **Churned customers paid more** — avg monthly fee $23.53 vs $14.64 for retained, indicating price sensitivity as a likely driver
+- **Churn is consistent across all acquisition channels** (~77% for Google, Instagram, LinkedIn, other) — this rules out acquisition quality as the cause and points to product or pricing
+- **No geographic concentration** — churn is uniform across all countries, ruling out regional factors
+- **Cancellation reasons are evenly distributed** across competition, high price, low usage, technical issues, and other — no single dominant reason, suggesting a broad retention problem
+- **Revenue volatile between $240K–$280K/month** with no clear growth trend, consistent with high churn neutralising new customer revenue
+
+---
+
 ## Architecture
 
 Four layers, each with a clear purpose:
